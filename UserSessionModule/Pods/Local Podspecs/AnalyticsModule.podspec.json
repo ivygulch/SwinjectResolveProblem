@@ -1,0 +1,23 @@
+{
+  "name": "AnalyticsModule",
+  "version": "0.0.1",
+  "summary": "A module for a unifying dispatching app events to different analytics services.",
+  "description": "A module for a unifying dispatching app events to different analytics services.",
+  "homepage": "https://example.com",
+  "authors": {
+    "temp": "temp@example.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "static_framework": true,
+  "source_files": "AnalyticsModule/Sources/**/*",
+  "dependencies": {
+    "Swinject": [
+
+    ]
+  }
+}

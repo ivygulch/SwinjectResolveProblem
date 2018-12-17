@@ -1,0 +1,24 @@
+PODS:
+  - AnalyticsModule (0.0.1):
+    - Swinject
+  - Swinject (2.5.0)
+
+DEPENDENCIES:
+  - AnalyticsModule (from `../AnalyticsModule`)
+  - Swinject
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Swinject
+
+EXTERNAL SOURCES:
+  AnalyticsModule:
+    :path: "../AnalyticsModule"
+
+SPEC CHECKSUMS:
+  AnalyticsModule: d62a933fdead86e9f50014643b0d534475b72118
+  Swinject: 82cdb851f63f91bba974e3eca1d69780f2f7677e
+
+PODFILE CHECKSUM: 8a753236e39bfe15fce82983b99afed8e0b05850
+
+COCOAPODS: 1.5.3

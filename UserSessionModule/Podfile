@@ -1,0 +1,20 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '10.0'
+use_frameworks!
+project 'UserSessionModule.xcodeproj'
+
+abstract_target 'Wrapper' do
+
+target 'UserSessionModule' do
+  project 'UserSessionModule.xcodeproj'
+  pod 'AnalyticsModule', :path => '../AnalyticsModule'
+  pod 'Swinject'
+
+  target 'UserSessionSampleApp' do
+    project 'UserSessionModule.xcodeproj'
+  end
+
+end
+
+end

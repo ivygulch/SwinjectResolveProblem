@@ -1,0 +1,5 @@
+framework module AnalyticsModule {
+//    umbrella header "AnalyticsModule.h"
+    header "ADBMobile.h"
+
+}
